@@ -120,7 +120,7 @@ using Blazor.AdminLte;
 
     private void SeeAllNotifications(Tuple<IDropdownFooter, MouseEventArgs> args)
     {
-        NavigationManager.NavigateTo("messages/see-all-notifications");
+        NavigationManager.NavigateTo("Counter");
     }
 
     protected override void OnAfterRender(bool isFirstRender)

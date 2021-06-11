@@ -72,7 +72,7 @@
     </NavBarRight>
 </NavBar>
 <SideBarContainer>
-    <BrandLogo Link="https://adminlte.io/" Logo="_content/Blazor.AdminLte.Site.Shared/dist/img/AdminLTELogo.png">AdminLTE 3</BrandLogo>
+    <BrandLogo Link="https://adminlte.io/" Logo="~/dist/img/AdminLTELogo.png">AdminLTE 3</BrandLogo>
     <SideBar>
         <!-- Sidebar user panel (optional) -->
         <SideBarUserPanel ImageEffect="ImageEffect.Circle" Link="starter-pages/user-page" Elevation="Elevation.Three" UserImage="../dist/img/user2-160x160.jpg">Alexander Pierce</SideBarUserPanel>
@@ -199,7 +199,7 @@
 
     private void SeeAllNotifications(Tuple<IDropdownFooter, MouseEventArgs> args)
     {
-        NavigationManager.NavigateTo("messages/see-all-notifications");
+        NavigationManager.NavigateTo("Counter");
     }
 
     protected override void OnAfterRender(bool isFirstRender)
