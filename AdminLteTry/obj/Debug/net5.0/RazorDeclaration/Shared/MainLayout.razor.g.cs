@@ -97,7 +97,7 @@ using Blazor.AdminLte;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 180 "C:\Users\BurakOzcelik\source\repos\BlazorAppAndAdminLTE\AdminLteTry\Shared\MainLayout.razor"
+#line 17 "C:\Users\BurakOzcelik\source\repos\BlazorAppAndAdminLTE\AdminLteTry\Shared\MainLayout.razor"
        
     protected override void OnParametersSet()
     {
