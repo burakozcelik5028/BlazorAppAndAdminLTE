@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BurakOzcelik\\source\\repos\\AdminLteTry\\AdminLteTry\\AdminLteTry.csproj": {}
+    "C:\\Users\\BurakOzcelik\\source\\repos\\BlazorAppAndAdminLTE\\AdminLteTry\\AdminLteTry.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BurakOzcelik\\source\\repos\\AdminLteTry\\AdminLteTry\\AdminLteTry.csproj": {
+    "C:\\Users\\BurakOzcelik\\source\\repos\\BlazorAppAndAdminLTE\\AdminLteTry\\AdminLteTry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BurakOzcelik\\source\\repos\\AdminLteTry\\AdminLteTry\\AdminLteTry.csproj",
+        "projectUniqueName": "C:\\Users\\BurakOzcelik\\source\\repos\\BlazorAppAndAdminLTE\\AdminLteTry\\AdminLteTry.csproj",
         "projectName": "AdminLteTry",
-        "projectPath": "C:\\Users\\BurakOzcelik\\source\\repos\\AdminLteTry\\AdminLteTry\\AdminLteTry.csproj",
+        "projectPath": "C:\\Users\\BurakOzcelik\\source\\repos\\BlazorAppAndAdminLTE\\AdminLteTry\\AdminLteTry.csproj",
         "packagesPath": "C:\\Users\\BurakOzcelik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BurakOzcelik\\source\\repos\\AdminLteTry\\AdminLteTry\\obj\\",
+        "outputPath": "C:\\Users\\BurakOzcelik\\source\\repos\\BlazorAppAndAdminLTE\\AdminLteTry\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
             "Blazorized.AdminLte.Content": {
               "target": "Package",
               "version": "[3.0.7, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.15.0, )"
             }
           },
           "imports": [
